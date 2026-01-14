@@ -5,7 +5,8 @@ A powerful, drag-and-drop form builder with conditional logic, real-time preview
 ## 🚀 Live Demo
 **[Try it here: https://dynamic-form-builder-8z6b.vercel.app](https://dynamic-form-builder-8z6b.vercel.app)**
 
-![Form Builder Screenshot](https://via.placeholder.com/800x450/4F46E5/FFFFFF?text=Form+Builder+Pro+Dashboard)
+<img width="1899" height="894" alt="image" src="https://github.com/user-attachments/assets/2562a688-6d7f-4a1f-8418-71c41883b866" />
+
 
 ## ✨ Features
 
