@@ -44,7 +44,7 @@ export default function ConditionalLogic() {
   return (
     <Card>
       <Card.Header>
-        <h5 className="mb-0">🔮 Conditional Logic</h5>
+        <h5 className="mb-0">Conditional Logic</h5>
       </Card.Header>
       <Card.Body>
         <Form>

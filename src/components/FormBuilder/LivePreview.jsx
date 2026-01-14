@@ -60,17 +60,16 @@ export default function LivePreview() {
       rule => rule.targetFieldId === fieldId && rule.action === 'show'
     );
 
-    // If there are hide rules and any is true, hide the field
+    
     if (hideRules.some(evaluateCondition)) {
       return false;
     }
 
-    // If there are show rules and any is true, show the field
+  
     if (showRules.length > 0) {
       return showRules.some(evaluateCondition);
     }
 
-    // Default to visible
     return true;
   };
 
@@ -82,17 +81,17 @@ export default function LivePreview() {
       rule => rule.targetFieldId === fieldId && rule.action === 'enable'
     );
 
-    // If there are disable rules and any is true, disable the field
+   
     if (disableRules.some(evaluateCondition)) {
       return false;
     }
 
-    // If there are enable rules and any is true, enable the field
+   
     if (enableRules.length > 0) {
       return enableRules.some(evaluateCondition);
     }
 
-    // Default to enabled
+  
     return true;
   };
 

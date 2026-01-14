@@ -73,7 +73,7 @@ export default function FieldConfig({ fieldId }) {
               type="text"
               value={field.placeholder || ''}
               onChange={(e) => handleChange('placeholder', e.target.value)}
-              placeholder="Placeholder text"
+              placeholder="“Start typing or panic” "
             />
           </Form.Group>
 
